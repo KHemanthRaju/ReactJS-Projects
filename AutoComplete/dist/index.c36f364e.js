@@ -1,9 +1,7 @@
-const Number1 = document.querySelector("#number1");
-const output = document.querySelector("#input1");
-//console.log(Number1.value);
-Number1.innerHTML = "Hemanth!";
+const output2 = document.querySelector("#input1");
+if (output2 != null) console.log(output2.value);
+console.log(output2.innerHTML ?? "456");
+console.log(output2.value);
 console.log(233);
-const ans = Number1.innerText;
-console.log(ans);
 
 //# sourceMappingURL=index.c36f364e.js.map
